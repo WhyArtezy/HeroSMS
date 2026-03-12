@@ -1,0 +1,28 @@
+# ═══════════════════════════════════════════════
+#           HERO SMS BOT — KONFIGURASI
+# ═══════════════════════════════════════════════
+
+# ── API ─────────────────────────────────────────
+API_KEY         = API_KEY_KAMU
+BASE_URL        = https://hero-sms.com/stubs/handler_api.php
+
+# ── TARGET ──────────────────────────────────────
+SERVICE         = wa
+COUNTRY         = 54
+JUMLAH_NOMOR    = 5
+
+# ── HARGA ───────────────────────────────────────
+MIN_PRICE       = 0.20
+MAX_PRICE       = 0.30
+
+# ── PERFORMA (dioptimasi) ────────────────────────
+THREADS         = 15
+ORDER_DELAY     = 0.1
+OTP_CHECK_DELAY = 2
+OTP_TIMEOUT     = 900
+BALANCE_DELAY   = 30
+REQUEST_TIMEOUT = 10
+
+# ── TELEGRAM ────────────────────────────────────
+BOT_TOKEN       = TOKEN_BOT_KAMU
+CHAT_ID         = CHAT_ID_KAMU
